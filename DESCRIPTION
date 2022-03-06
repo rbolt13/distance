@@ -1,12 +1,13 @@
 Package: distance
-Title: What the Package Does (One Line, Title Case)
+Title: Euclidean and Taxicab Distance Formulas
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Randi", "Bolt", , "rbolt@pdx.edu", role = c("aut", "cre"))
+Description: This package has 3 Euclidean and 3 Taxicab distance formulas. 
+    Two of the functions take in four numeric values, two of the functions 
+    take in two (x,y) point values, and two functions take in a single sting 
+    of four values which represent (x1,y1,x2,y2). 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
