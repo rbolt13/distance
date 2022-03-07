@@ -26,6 +26,8 @@ distance between two points.
 
 ## Example
 
+![](img/img1.png)
+
 ``` r
 library(distance)
 x1 <- 2
@@ -37,3 +39,10 @@ distance_E(x1,x2,y1,y2)
 distance_T(x1,x2,y1,y2)
 #> [1] 10
 ```
+
+## Sources
+
+[R Packages](https://r-pkgs.org/index.html)
+
+[Taxicab
+Geometry](https://mat292project.weebly.com/distance-in-taxi-cab.html)

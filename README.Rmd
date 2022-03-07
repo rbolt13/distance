@@ -35,6 +35,8 @@ It might be useful to know the Taxicab distance and the Euclidean distance betwe
 
 ## Example
 
+![](img/img1.png)
+
 ```{r}
 library(distance)
 x1 <- 2
@@ -44,4 +46,10 @@ y2 <- 1
 distance_E(x1,x2,y1,y2)
 distance_T(x1,x2,y1,y2)
 ```
+
+## Sources 
+
+[R Packages](https://r-pkgs.org/index.html)
+
+[Taxicab Geometry](https://mat292project.weebly.com/distance-in-taxi-cab.html)
 
